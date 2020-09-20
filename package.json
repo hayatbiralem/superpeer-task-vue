@@ -1,0 +1,32 @@
+{
+  "name": "superpeer-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hayatbiralem/superpeer-task.git",
+  "author": "Ömür Yanıkoğlu <hayatbiralem@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-file index.php"
+  },
+  "dependencies": {
+    "autoprefixer": "9.8.6",
+    "sass-mq": "^5.0.1",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "postcss": "^8.0.2",
+    "postcss-modules": "^3.2.2",
+    "sass": "^1.26.11",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "staticFiles": {
+    "staticPath": "./src/static",
+    "watcherGlob": "**"
+  }
+}
