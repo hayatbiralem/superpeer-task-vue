@@ -8,7 +8,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-file index.php"
+    "build": "parcel build src/index.html --out-file index.php --no-minify"
   },
   "dependencies": {
     "autoprefixer": "9.8.6",
