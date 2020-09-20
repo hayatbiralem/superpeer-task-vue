@@ -13,11 +13,11 @@ git clone git@github.com:hayatbiralem/superpeer-task.git
 cd superpeer-task
 yarn install
 yarn dev
-# or
-yarn build
 ```
 
 And then visit http://localhost:1234/
+
+To build project you can use `yarn build` command.
 
 ## Points I care about
 
