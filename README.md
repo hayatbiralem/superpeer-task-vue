@@ -44,3 +44,7 @@ And then visit http://localhost:1234/
 - I've been coding CSS since 2010.
 - I also know NodeJS, PHP, Laravel, WordPress, bash and servers... In short I know back-end stuff.
 - I'm good at reading and writing in English. I've been talking to Cambly teachers for two years now (you can verify that by following [this link](https://www.cambly.com/en/certificate/verify/f8478219)), so I'm good at listening and speaking too. I am comfortable in daily conversations but I must say that my vocabulary and grammar are poor.
+
+## TODO
+
+- [ ] Genereta sprite icons via Parcel/WebPack.
