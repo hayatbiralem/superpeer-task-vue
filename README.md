@@ -4,7 +4,11 @@ This project tries to solve the task on https://kodilan.com/ilanlar/superpeer-ui
 
 ## Demo
 
-You can check the result on both desktop and mobile devices by visiting http://superpeertask.test.rebootworks.com/
+You can check the result on both desktop and mobile devices by visiting http://superpeertaskvue.test.rebootworks.com/
+
+## Classic HTML Version
+
+You can check the classic HTML version by visiting http://superpeertaskvue.test.rebootworks.com/
 
 ## Usage
 
