@@ -8,11 +8,14 @@
  * SETTINGS
  * Core.................The framework’s core and setup settings.
  * Global...............Project-wide variables and settings.
+ * Colors...............UI colors.
  *
  * TOOLS
- * Font-size............A mixin which guarantees baseline-friendly line-heights.
  * Clearfix.............Micro clearfix mixin.
  * Hidden...............Mixin for hiding elements.
+ * Strip-unit...........Remove the unit of a length.
+ * Loop-collection......Loop collections to produce collection based utilities or modifiers.
+ * Prevent-zoom..fix....No input zoom in Safari on iPhone, the pixel perfect way.
  * Sass MQ..............Default media query manager.
  *
  * GENERIC
@@ -35,11 +38,23 @@
  * List-inline..........A list whose items all site in a line.
  *
  * COMPONENTS
- * Buttons..............Button component.
+ * Buttons..............UI button styles.
+ * Waiting-room.........Major wrapper for demo purposes.
+ * Card.................Sleek box for demo purposes.
+ * Call-details.........Card header.
+ * Meta.................Card meta.
+ * Heading..............Section heading.
+ * Tip..................Muted info text.
+ * Video-preview........Video preview with icon controls.
+ * Icon-controls........Video preview tools.
+ * Forms................Form styles.
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
  * Hide.................Helper classes to hide content
+ * Colors...............Color utilities.
+ * Align................Align utilities.
+ * Spacing..............Spacing utilities.
  */
 
 // SETTINGS
