@@ -198,6 +198,6 @@ $label-gap: $global-spacing-unit-tiny;
 /* Disable State
    ========================================================================== */
 
-.c-form__field--disabled > .c-form__input-base {
+.c-form__field--disabled {
   opacity: 0.4;
 }
