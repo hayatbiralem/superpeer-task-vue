@@ -1,4 +1,4 @@
-# Superpeer Task
+# Superpeer Task (Vue)
 
 This project tries to solve the task on https://kodilan.com/ilanlar/superpeer-ui-developer
 
