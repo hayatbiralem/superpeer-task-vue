@@ -8,7 +8,7 @@ You can check the result on both desktop and mobile devices by visiting http://s
 
 ## Classic HTML Version
 
-You can check the classic HTML version by visiting http://superpeertaskvue.test.rebootworks.com/
+You can check the classic HTML version by visiting https://github.com/hayatbiralem/superpeer-task/
 
 ## Usage
 
