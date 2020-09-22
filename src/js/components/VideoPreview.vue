@@ -54,7 +54,6 @@ export default {
   },
   methods: {
     toggleControll: function(index){
-      console.log(this.$refs['control-' + index]);
       this.$refs['control-' + index][0].toggle();
     }
   },

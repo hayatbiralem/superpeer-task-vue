@@ -53,11 +53,6 @@ export default {
     Icon,
     UIButton,
   },
-  methods: {
-    clicked: function(){
-      console.log('clicked');
-    }
-  },
   data() {
     return {
       name: this.data.name,
