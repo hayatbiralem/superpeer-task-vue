@@ -8,10 +8,13 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-file index.php --no-minify"
+    "build": "parcel build src/index.html --out-file index.php --no-minify",
+    "svgsprite": "svg-sprite --svg-xmldecl=false --dest=src/static --defs --defs-dest=sprite --defs-sprite=icons.svg src/static/icons/*.svg"
   },
   "dependencies": {
     "autoprefixer": "9.8.6",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
     "sass-mq": "^5.0.1",
     "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4"

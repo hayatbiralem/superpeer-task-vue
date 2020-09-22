@@ -23,6 +23,19 @@ And then visit http://localhost:1234/
 
 To build project you can use `yarn build` command.
 
+## SVG Sprite Generation
+
+You can always use [icomoon.io](https://icomoon.io/app) to manage your svg icons which is very useful but we have a local solution eather.
+
+You can add/remove your svg icons to/from `src/static/icons` folder and then run following command to regenerate svg icons.
+
+```
+npm install svg-sprite -g
+yarn svgsprite
+```
+
+It will update `src/static/sprite/icons.svg` file contents as a svg sprite. You can copy/paste its contents to between the `<template></template>` tag in the `SvgSprite.vue` file.
+
 ## Points I care about
 
 - I used Parcel to package things.

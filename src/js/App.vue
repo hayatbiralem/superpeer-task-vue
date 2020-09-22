@@ -1,19 +1,21 @@
 <template>
   <div class="c-app">
+    <SvgSprite />
     <WaitingRoom :data="data" />
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-import WaitingRoom from "./WaitingRoom";
+import SvgSprite from "./components/SvgSprite";
+import WaitingRoom from "./components/WaitingRoom";
 
 export default Vue.extend({
   components: {
+    SvgSprite,
     WaitingRoom
   },
   data() {
-    const that = this;
     return {
       data: {
         callDetails: {
@@ -49,7 +51,7 @@ export default Vue.extend({
         },
         form: {
           submit: function() {
-            alert('Submit!');
+            alert("Submit!");
           },
           items: [
             {
