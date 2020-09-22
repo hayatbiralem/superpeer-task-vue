@@ -27,7 +27,7 @@ To build project you can use `yarn build` command.
 
 You can always use [icomoon.io](https://icomoon.io/app) to manage your svg icons which is very useful but we have a local solution eather.
 
-You can add/remove your svg icons to/from `src/static/icons` folder and then run following command to regenerate svg icons.
+You can add/remove your svg icons to/from `src/static/icons` folder and then run following command to regenerate svg sprite.
 
 ```
 npm install svg-sprite -g
