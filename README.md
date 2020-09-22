@@ -2,13 +2,21 @@
 
 This project tries to solve the task on https://kodilan.com/ilanlar/superpeer-ui-developer
 
-## Demo
+## Demo of this repo
 
-You can check the result on both desktop and mobile devices by visiting http://superpeertaskvue.test.rebootworks.com/
+http://superpeertaskvue.test.rebootworks.com/
 
-## Classic HTML Version
+## CodeSandbox
 
-You can check the classic HTML version by visiting https://github.com/hayatbiralem/superpeer-task/
+https://codesandbox.io/s/superpeer-task-vue-v2-xdp51/
+
+## CodeSandbox demo
+
+https://csb-xdp51-hdmzsb9dv.vercel.app/
+
+## Classic HTML
+
+https://github.com/hayatbiralem/superpeer-task/
 
 ## Usage
 
@@ -64,4 +72,5 @@ It will update `src/static/sprite/icons.svg` file contents as a svg sprite. You 
 
 ## TODO
 
-- [ ] Genereta sprite icons via Parcel/WebPack.
+- [x] Genereta sprite icons via CLI.
+- [ ] Use Github Pages to represent the demo.
