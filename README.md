@@ -34,7 +34,7 @@ npm install svg-sprite -g
 yarn svgsprite
 ```
 
-It will update `src/static/sprite/icons.svg` file contents as a svg sprite. You can copy/paste its contents to between the `<template></template>` tag in the `SvgSprite.vue` file.
+It will update `src/static/sprite/icons.svg` file contents as a svg sprite. You can copy/paste its content into the `<template />` tag inside the `SvgSprite.vue` file.
 
 ## Points I care about
 
