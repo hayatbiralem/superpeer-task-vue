@@ -35,7 +35,7 @@
 
     <!-- .c-video-preview__input -->
     <div class="c-video-preview__input">
-      <FormField type="text" left-icon="line-user" :data="input"></FormField>
+      <UIFormField type="text" left-icon="line-user" :data="input"></UIFormField>
     </div>
     <!-- /.c-video-preview__input -->
   </div>
@@ -43,14 +43,14 @@
 
 <script>
 import UIButton from "./UIButton";
-import FormField from "./FormField";
+import UIFormField from "./UIFormField";
 
 export default {
   name: "VideoPreview",
   props: ["data"],
   components: {
     UIButton,
-    FormField,
+    UIFormField,
   },
   methods: {
     toggleControll: function(index){

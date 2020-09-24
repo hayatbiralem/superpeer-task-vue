@@ -47,7 +47,7 @@ import Icon from "./Icon";
 import UIButton from "./UIButton";
 
 export default {
-  name: "FormField",
+  name: "UIFormField",
   props: ["data"],
   components: {
     Icon,
