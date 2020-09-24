@@ -6,7 +6,12 @@
         v-for="(item, index) in items"
         :key="index"
       >
-        <Icon class="c-meta__icon" :icon="item.icon" width="18" height="18"></Icon>
+        <Icon
+          class="c-meta__icon"
+          :icon="item.icon"
+          width="18"
+          height="18"
+        ></Icon>
         <span class="c-meta__text">{{ item.text }}</span>
       </li>
     </ul>
@@ -24,11 +29,15 @@ export default {
   },
   data() {
     return {
-      items: this.data,
-      modifiers: {
-        "c-meta--inline": this.isInline
-      }
+      items: this.data
     };
+  },
+  computed: {
+    modifiers: function() {
+      return {
+        "c-meta--inline": this.isInline
+      };
+    }
   }
 };
 </script>
