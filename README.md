@@ -21,7 +21,7 @@ https://github.com/hayatbiralem/superpeer-task/
 ## Usage
 
 ```
-git clone git@github.com:hayatbiralem/superpeer-task.git
+git clone git@github.com:hayatbiralem/superpeer-task-vue.git
 cd superpeer-task
 yarn install
 yarn dev
