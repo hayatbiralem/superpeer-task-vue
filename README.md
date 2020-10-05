@@ -1,4 +1,10 @@
-# Superpeer Task (Vue)
+# ⚠️⚠️⚠️DEPRECATED⚠️⚠️⚠️
+
+This repo was depracated. Please visit the new one:
+
+https://github.com/hayatbiralem/superpeer-task-vue-storybook
+
+## Superpeer Task (Vue)
 
 This project tries to solve the task on https://kodilan.com/ilanlar/superpeer-ui-developer
 
