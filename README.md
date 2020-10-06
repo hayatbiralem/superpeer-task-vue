@@ -18,7 +18,7 @@ http://superpeertaskvue.test.rebootworks.com/
 
 ## CodeSandbox
 
-https://codesandbox.io/s/superpeer-task-vue-v2-xdp51/
+https://codesandbox.io/s/superpeer-task-vue-xdp51/
 
 ## CodeSandbox demo
 
